@@ -1,33 +1,39 @@
-# Sentiment Analysis Project
+**Sentiment Analysis Project**
 
-## Descripción
-Este proyecto implementa un modelo de análisis de sentimientos utilizando Python y bibliotecas de Machine Learning. Se enfoca en la clasificación de textos según su polaridad, empleando diferentes enfoques de modelado y preprocesamiento de datos.
+## Description
 
-## Características principales
-- Preprocesamiento de datos utilizando `pandas` y `sklearn`.
-- Implementación de modelos de clasificación con `MLPClassifier` y `DummyClassifier`.
-- Evaluación del rendimiento de los modelos con métricas como `accuracy_score`, `precision_score`, `f1_score`, `recall_score` y `cohen_kappa_score`.
+This project implements a sentiment analysis model using Python and machine learning libraries. It focuses on classifying texts according to their polarity, employing different modeling and data preprocessing approaches.
 
-## Instalación
-Para ejecutar este proyecto, instala las dependencias necesarias:
+## Main Features
+
+* Data preprocessing using `pandas` and `sklearn`.
+* Implementation of classification models with `MLPClassifier` and `DummyClassifier`.
+* Evaluation of model performance using metrics such as `accuracy_score`, `precision_score`, `f1_score`, `recall_score`, and `cohen_kappa_score`.
+
+## Installation
+
+To run this project, install the necessary dependencies:
 
 ```bash
 pip install scikeras tabulate pandas scikit-learn
 ```
 
-## Uso
-Ejecuta el notebook en Jupyter para entrenar y evaluar los modelos:
+## Usage
+
+Run the notebook in Jupyter to train and evaluate the models:
 
 ```bash
 jupyter notebook Sentiment_Analysis_CyED_Code.ipynb
 ```
 
-## Dependencias
-- `pandas`
-- `scikit-learn`
-- `scikeras`
-- `tabulate`
+## Dependencies
 
-## Autor
+* `pandas`
+* `scikit-learn`
+* `scikeras`
+* `tabulate`
+
+## Author
+
 Geovanny Quintero Velez
 
